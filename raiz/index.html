@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web component</title>
+</head>
+<body>
+    <h3>Web component</h3>
+
+
+
+    <user-card name="Samuel" avatar="https://randomuser.me/api/portraits/men/1.jpg">
+        <div slot="email">samuel@atos6.com</div>
+        <div slot="phone">+55 55 99999-9999</div>
+    </user-card>
+
+    <user-card name="Rafael" avatar="https://randomuser.me/api/portraits/men/2.jpg">
+        <div slot="email">rafael@atos6.com</div>
+        <div slot="phone">+55 55 99999-9999</div>
+    </user-card>
+
+    <user-card name="Neves" avatar="https://randomuser.me/api/portraits/men/3.jpg">
+        <div slot="email">neves@atos6.com</div>
+        <div slot="phone">+55 55 99999-9999</div>
+    </user-card>
+
+    <user-card name="Narcello" avatar="https://randomuser.me/api/portraits/men/4.jpg">
+        <div slot="email">marcello@atos6.com</div>
+        <div slot="phone">+55 55 99999-9999</div>
+    </user-card>
+
+
+
+    <script src="userCard.js"></script>
+    <style>
+        h3 {
+            display: none;
+            color: pink;
+        }
+    </style>
+</body>
+</html>
