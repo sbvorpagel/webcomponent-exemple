@@ -1,0 +1,1 @@
+import{p as a,b as e}from"./p-efa4bbf6.js";(()=>{const e=import.meta.url,o={};return""!==e&&(o.resourcesUrl=new URL(".",e).href),a(o)})().then((a=>e([["p-cdb9b4a3",[[1,"card-user",{email:[1],name:[1],phone:[1],avatar:[1],showInfo:[32],buttonName:[32]}],[1,"my-component",{first:[1],middle:[1],last:[1]}]]]],a)));
